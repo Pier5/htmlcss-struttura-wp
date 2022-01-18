@@ -22,19 +22,18 @@
 }
 
 .container-blue {
-    height: 500px;
     background-color: #abcfe7;
     margin-bottom: 8px;
 }
 
 .container-top {
-    height: 15%;
+    height: 90px;
 }
 
 .container-left,
 .container-right {
     width: 20%;
-    height: 85%;
+    height: 400px;
     float: left;
     border-top: 20px solid #6686ff;
     border-bottom: 20px solid #6686ff;
@@ -46,14 +45,14 @@
 
 .container-middle {
     width: 60%;
-    height: 85%;
+    height: 400px;
     float:left;
     border-top: 20px solid #6686ff;
     border-right: 15px solid #6686ff;
     border-bottom: 20px solid #6686ff;
 }
 
-.container::after {
+.container-blue::after {
     content: '';
     display: table;
     clear: both;
