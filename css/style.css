@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.main-header {
+    height: 100px;
+    background-color: #e579ee;
+}
+
+.container-gold {
+    height: 350px;
+    background-color: #e1d67a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container-blue {
+    height: 450px;
+    background-color: #abcfe7;
+}
